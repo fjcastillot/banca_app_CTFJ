@@ -1,4 +1,4 @@
-class Base_controller:
+class BaseController:
     def __init__(self):
         self.data = []
     def guardar(self, entrada)
