@@ -1,4 +1,4 @@
-from .base_controller import Base_controller
+from .base_controller import BaseController
 
 class CreditController(Base_controller):
     pass
