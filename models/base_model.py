@@ -6,6 +6,6 @@ class BaseCredito(ABC):
         self.plazo = plazo
         self.tasa = tasa
 
-        @asbtracmethod
+        @abstractmethod
         def calcular_cuota(self):
             pass
