@@ -1,4 +1,4 @@
-from abc import ABC, asbtracmethod
+from abc import ABC, abstractmethod
 
 class BaseCredito(ABC):
     def __init__(self, monto, plazo, tasa):
